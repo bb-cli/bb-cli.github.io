@@ -26,6 +26,7 @@ Available actions:
 
 Terminal : `bb pr help`
 
+
 ```
 Available methods:
 [
@@ -40,3 +41,4 @@ Available methods:
     "merge, m",
     "create"
 ]
+```
