@@ -10,11 +10,11 @@ parent: Commands
 Pipeline commands.
 {: .fs-6 .fw-300 }
 
-## List
-`bb branch list` lists branchs .
+## Get
+`bb pipeline get <pipeline-id>` Gets details of given pipeline.
 
-## Name
-`bb branch name feature` list branches that branch name contains "feature".
+## Latest
+`bb pipeline latest` Gets details of latest pipeline.
 
-## User
-`bb branch user semih` list branches that latest commit user name contains "semih".
+## Wait
+`bb pipeline wait <pipeline id>` Hangs on terminal, until given pipeline finishes.

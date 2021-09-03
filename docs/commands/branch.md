@@ -11,7 +11,10 @@ Branch commands.
 {: .fs-6 .fw-300 }
 
 ## List
-`bb pr list [branch]` list pull request for repository, You may add optional `brach` parameter to see pull request that made for given branch. For example can can use this command to see pull request that destination is dev branch `bb pr list dev`
+`bb branch list` lists branchs .
 
-## Merge 
-`bb pr merge <pr-id>` merge pull request
+## Name
+`bb branch name feature` list branches that branch name contains "feature".
+
+## User
+`bb branch user semih` list branches that latest commit user name contains "semih".
