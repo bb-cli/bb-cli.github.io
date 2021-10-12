@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Help
-parent: Commands
+permalink: /help/
+nav_order: 6
 ---
 
 # Help Commands

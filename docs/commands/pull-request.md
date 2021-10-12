@@ -7,7 +7,7 @@ parent: Commands
 # Pull Request
 {: .no_toc }
 
-PR commands.
+All commands for pull request.
 {: .fs-6 .fw-300 }
 
 ## List

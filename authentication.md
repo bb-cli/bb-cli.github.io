@@ -8,10 +8,12 @@ nav_order: 3
 # Authentication
 {: .no_toc }
 
-App Passwords
+All commands for auth.
 {: .fs-6 .fw-300 }
 
-* If you don't have a app password you may create by following this link: https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/
+## App Passwords
+* If you don't have a app password you may create by following this link: [App passwords | Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/)
+* Next, please run the following command.
 
 ## Save
 `bb auth` or `bb auth save` command to save auth info.

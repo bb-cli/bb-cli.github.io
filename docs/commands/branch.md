@@ -7,7 +7,7 @@ parent: Commands
 # Branch
 {: .no_toc }
 
-Branch commands.
+All commands for branch.
 {: .fs-6 .fw-300 }
 
 ## List

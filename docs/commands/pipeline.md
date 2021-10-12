@@ -7,7 +7,7 @@ parent: Commands
 # Pipeline
 {: .no_toc }
 
-Pipeline commands.
+All commands for pipeline.
 {: .fs-6 .fw-300 }
 
 ## Get
