@@ -34,7 +34,7 @@ All commands for pull request.
 ## Not Request Changes
 `bb pr no-request-changes <pr-id>` Revert pull request to not request changes status.
 
-## Declime
+## Decline
 `bb pr decline <pr-id>` Decline pull request.
 
 ## Create

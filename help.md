@@ -17,12 +17,12 @@ Terminal : `bb help`
 
 ```
 Available actions:
-[
-    "pr",
-    "pipeline",
-    "branch",
-    "auth"
-]
+
+pr
+pipeline
+branch
+auth
+
 ```
 
 Terminal : `bb pr help`
@@ -30,16 +30,15 @@ Terminal : `bb pr help`
 
 ```
 Available methods:
-[
-    "list, l",
-    "diff, d",
-    "commits, c",
-    "approve, a",
-    "no-approve, na",
-    "request-changes, rc",
-    "no-request-changes, nrc",
-    "decline",
-    "merge, m",
-    "create"
-]
+
+list, l
+diff, d
+commits, c
+approve, a
+no-approve, na
+request-changes, rc
+no-request-changes, nrc
+decline
+merge, m
+create
 ```
