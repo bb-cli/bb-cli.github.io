@@ -27,6 +27,10 @@ Please see [CONTRIBUTING](https://github.com/bb-cli/bb-cli/blob/main/CONTRIBUTIN
 - [Semih Erdogan](https://github.com/semiherdogan)
 - [Dinçer Demircioğlu](https://github.com/dinncer)
 
+## Development
+
+This tool developed with help of [Github Copilot](https://copilot.github.com) :octocat:
+
 ## License
 
 The MIT License (MIT). Please see [License File](https://github.com/bb-cli/bb-cli/blob/main/LICENSE) for more information.
