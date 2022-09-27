@@ -29,7 +29,7 @@ Please see [CONTRIBUTING](https://github.com/bb-cli/bb-cli/blob/main/CONTRIBUTIN
 
 ## Development
 
-This tool developed with help of [Github Copilot](https://copilot.github.com) :octocat:
+This tool developed with help of [Github Copilot](https://copilot.github.com)
 
 ## License
 
