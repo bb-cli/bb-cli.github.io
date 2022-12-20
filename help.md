@@ -2,7 +2,7 @@
 layout: page
 title: Help
 permalink: /help/
-nav_order: 6
+nav_order: 7
 ---
 
 # Help Commands
