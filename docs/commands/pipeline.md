@@ -18,3 +18,6 @@ All commands for pipeline.
 
 ## Wait
 `bb pipeline wait <pipeline id>` Hangs on terminal, until given pipeline finishes.
+
+## Run
+`bb pipeline run <branch-name>` Runs pipeline for given branch (defined in bitbucket-pipelines.yml file).
