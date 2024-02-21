@@ -15,12 +15,12 @@ You may add something like this to add auto completion feature.
 
 ```
 _bb_autocomplete() {
-    local pipeline_commands="get latest wait"
+    local pipeline_commands="get latest wait run"
     local pr_commands="list diff commits approve no-approve request-changes no-request-changes decline merge create"
     local branch_commands="list user name"
     local auth_commands="save show"
 
-    _arguments "1: :(pr pipeline branch auth)" "2: :(help $pipeline_commands $pr_commands $branch_commands $auth_commands)"
+    _arguments "1: :(pr pipeline branch auth browse upgrade)" "2: :(help $pipeline_commands $pr_commands $branch_commands $auth_commands)"
 }
 
 compdef _bb_autocomplete bb
