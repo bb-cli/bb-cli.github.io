@@ -21,3 +21,15 @@ All commands for pipeline.
 
 ## Update Environment Variable
 `bb env update-variable <env-uuid> <var-uuid> <key> <value> <secured: 0>` Updates an environment variable.
+
+## Example
+```bash
+env-update() {
+    bb env update-variable \
+        '{XXXX-YYYY-XXXX-YYYY-environment-uuid}' \
+        '{XXXX-YYYY-XXXX-YYYY-variable-uuid}' \
+        ENV \
+        "$(cat ~/Code/project/.env| base64)" \
+        1
+}
+```
