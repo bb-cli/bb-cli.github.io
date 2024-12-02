@@ -21,3 +21,6 @@ All commands for pipeline.
 
 ## Run
 `bb pipeline run <branch-name>` Runs pipeline for given branch (defined in bitbucket-pipelines.yml file).
+
+## Custom
+`bb pipeline custom <branch> <pipeline-name>` Runs given pipeline for given branch.
