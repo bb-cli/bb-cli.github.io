@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Tech
+title: Tech Stack
 permalink: /tech/
 nav_order: 8
 ---
 
-# Tech
+# Tech Stack
 {: .no_toc }
 
 Tool that we are using to use Bitbucket on CLI.

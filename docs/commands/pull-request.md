@@ -37,5 +37,19 @@ All commands for pull request.
 ## Decline
 `bb pr decline <pr-id>` Decline pull request.
 
+## Files
+`bb pr files <pr-id>` List changed files in a pull request (diffstat).
+
 ## Create
-`bb pr create dev test` Create pull request from dev to test branch.
+`bb pr create <from-branch> <to-branch> [add-default-reviewers]` Create pull request from one branch to another. If only one branch is given, creates PR from current branch to given branch. You can pass multiple destination branches separated by comma: `bb pr create dev test,staging`. Default reviewers are added automatically, pass `0` as third parameter to skip: `bb pr create dev test 0`.
+
+## Show
+`bb pr show <pr-id> [unresolved]` View pull request comments including both general and inline code comments. Add `unresolved` (or `true`) as second parameter to show only unresolved inline comments.
+
+```bash
+# Show all comments
+bb pr show 42
+
+# Show only unresolved inline comments
+bb pr show 42 true
+```
