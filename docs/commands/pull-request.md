@@ -41,7 +41,45 @@ All commands for pull request.
 `bb pr files <pr-id>` List changed files in a pull request (diffstat).
 
 ## Create
-`bb pr create <from-branch> <to-branch> [add-default-reviewers]` Create pull request from one branch to another. If only one branch is given, creates PR from current branch to given branch. You can pass multiple destination branches separated by comma: `bb pr create dev test,staging`. Default reviewers are added automatically, pass `0` as third parameter to skip: `bb pr create dev test 0`.
+`bb pr create <target-branch> [source-branch] [options]` Create pull request. If `source-branch` is omitted, the current branch is used as source.
+
+### Options
+
+| Flag | Description |
+|---|---|
+| `-i` | Interactive mode — prompts for missing title and/or description |
+| `--title "..."` | Set the PR title (non-interactive) |
+| `--description "..."` | Set the PR description (non-interactive) |
+
+### Usage Examples
+
+**Fully non-interactive (CI-safe, default behavior):**
+```bash
+bb pr create develop
+```
+
+**Interactive mode — prompts for title and description:**
+```bash
+bb pr create develop -i
+```
+
+**Non-interactive with custom title and description:**
+```bash
+bb pr create develop --title "Fix login bug" --description "Resolves timeout issue on auth endpoint"
+```
+
+**Mixed — provide some flags, prompt for the rest:**
+```bash
+bb pr create develop -i --title "Fix login bug"
+```
+Uses the provided title and only prompts for the missing description.
+
+**Multiple target branches:**
+```bash
+bb pr create develop,staging,main
+```
+
+Default reviewers are added automatically. Pass `0` as third parameter to skip: `bb pr create develop test 0`.
 
 ## Show
 `bb pr show <pr-id> [unresolved]` View pull request comments including both general and inline code comments. Add `unresolved` (or `true`) as second parameter to show only unresolved inline comments.
